@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: beige;
+  font-family: 'arial', 'sans-serif';
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:hotpink;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  text-align: left;
+  width: 40%;
+}
+
+.image {
+  width: 40%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ff7f00;
+}
+
+.nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  display: inline-flex;
+  margin-left: 100px;
+  position:absolute; top:100px; left:50px;
+  gap:10px;
+  color:black;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ff9800;
+}
+
+.nav .logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav .logo img {
+  align-self: normal;
+  width: 30px;
+  height: 30px;
+}
+.context .text p{
+text-decoration-thickness:10px;
+color:black;
+}
+</style>
+</head>
+<body>
+  <div class="nav">
+    <div class="logo"><img src="https://cdn-icons-png.flaticon.com/512/1713/1713348.png" alt="Burger Logo"></div>
+    <b><a href="#">Home</a>
+    <a href="#">Recipe</a>
+    <a href="#">Popular</a>
+    <a href="#">Delivery</a>
+    <a href="#">Contact</a></b>
+  </div>
+
+  <h1>Love Every Burger</h1>
+
+  <div class="content">
+    <div class="text">
+      <p>We serve the best burgers on the planet, paving the way for cooking and preparing hot, delicious burgers.</p>
+      <button class="button">Bite Now</button>
+    </div>
+    <div class="image">
+      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Burger">
+    </div>
+  </div>
+</body>
+</html>

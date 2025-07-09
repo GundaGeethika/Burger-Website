@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    font-family: Arial;
+}
+.contact-sticker1{
+    height:300px;
+    width:300px;
+}

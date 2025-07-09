@@ -1,0 +1,53 @@
+body{
+    background-color: beige;
+}
+
+.section__title{
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+}
+button{
+    background-color: yellow;
+    border-width:2px;
+    border-color:none;
+    border-radius: 12px;
+    padding:14px 40px;
+    size: 150px;
+    font-size:15px;
+}
+.delivery_container{
+    row-gap: 2.5rem;
+}
+
+.delivery_data{
+    position: relative;
+    text-align: center;
+}
+
+.delivery_container.section_title{
+    margin-bottom: 1rem;
+}
+
+.delivery_description{
+    font-size: 50px;
+    color:grey;
+}
+
+.delivery_sticker{
+    width:70px;
+    rotate:15deg;
+    position:absolute;
+    right:1rem;
+    bottom:.5rem;
+    opacity:.5rem;
+
+}
+
+.delivery_img{
+    width:350px;
+    height:300px;
+    justify-self: center;
+
+}
+

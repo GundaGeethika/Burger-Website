@@ -1,0 +1,65 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.burgers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.burger {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color:#d9c35e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.burger img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.burger h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.burger p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.burger button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.burger button:hover {
+    background-color: #d9c35e;
+}

@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:beige;
+    text-align:center;
+}
+
+/*=========================Home Page===============================*/
+.link{
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 20px;
+    padding: 15px;
+    color: #000;
+}
+li:hover{
+text-decoration: underline;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 50px;
+}
+#web{
+    font-size: 40px;
+    width:500px;
+}
+#sec{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+#burgerss{
+    margin-left: 200px;
+    margin-bottom: 300px;
+}
+button{
+    border-radius: 30%;
+    background-color: yellow;
+    font-size: 50%;
+}
+#h6{
+    color:grey;
+    font-size: 50%;
+}
+#sec2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+#b2{
+    margin-top: 40%;
+    size: 30px;
+}
+#item1{
+    padding-left:600px;
+    font-size: 23px;
+}
+h1{
+    font-size:100px;
+}
+
+/* ========================= recipe page =================== */
+
+.section_title{
+    color:chocolate;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.recipe{
+    overflow:hidden;
+
+}
+
+.recipe_container{
+grid-template-columns: .5fr 1fr;
+column-gap:1rem;
+padding-bottom:2rem;
+}
+
+.recipe_image{
+
+    position:relative;
+    display:grid;
+    place-items:center;
+}
+
+.recipe_img{
+    position:absolute;
+    max-width: initial;
+    width:250px;
+    right: 10rem;
+    margin-top: 600px;
+    filter: var(--shadow-big-img);
+}
+.recipe_data{
+    display:grid;
+    row-gap: 2rem;
+
+}
+.recipe_card{
+    display:flex;
+    align-items: center;
+    column-gap: .5rem;
+
+}
+
+.recipe_box{
+width:60px;
+height:60px;
+flex-shrink: 0;
+background-color:var(--first-color--);
+border: 3px solid var(--container-color);
+border-radius: .75rem;
+display:grid;
+place-items: center;
+}
+
+.recipe_box img{
+    margin-left: 100px;
+    width:100px;
+    height:60px;
+    filter:var(--shadow-small-img);
+}
+
+.recipe_title{
+    margin-left: 150px;
+    font-size: 50px;
+    margin-bottom: .5rem;
+}
+.recipe_description{
+    margin-left: 170px;
+    font-size: 30px;
+    color:dimgray;
+}
+.recipe_card:nth-child(even).recipe_box{
+    order:1;
+}
+
+/* ==============================Popular Page ======================== */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top:100px;
+}
+
+.burgers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.burger {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color:#d9c35e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.burger img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.burger h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.burger p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.burger button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.burger button:hover {
+    background-color: #d9c35e;
+}
+
+
+/* ============= Delivvery Page ===================== */
+
+.section__title{
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+}
+button{
+    background-color: yellow;
+    border-width:2px;
+    border-color:none;
+    border-radius: 12px;
+    padding:14px 40px;
+    size: 150px;
+    font-size:15px;
+}
+.delivery_container{
+    row-gap: 2.5rem;
+}
+
+.delivery_data{
+    position: relative;
+    text-align: center;
+}
+
+.delivery_container.section_title{
+    margin-bottom: 1rem;
+}
+
+.delivery_description{
+    font-size: 50px;
+    color:grey;
+}
+
+.delivery_sticker{
+    width:70px;
+    rotate:15deg;
+    position:absolute;
+    right:1rem;
+    bottom:.5rem;
+    opacity:.5rem;
+
+}
+
+.delivery_img{
+    width:350px;
+    height:300px;
+    justify-self: center;
+
+}
+
